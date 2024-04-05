@@ -1,0 +1,182 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+body {
+    font-family: montserrat, sans-serif;
+    color: #FFF8DC; 
+    background-color: black;
+  }
+  
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 737px;
+  }
+  
+.header-hero {
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+h1{
+     margin: 0;
+     position: absolute; 
+     left: 60px; 
+     top: 50%; 
+     transform: translateY(-150%); 
+    font-size: 92px;
+    color: #FFF8DC; 
+  }
+  
+header p{
+     margin: 0;
+     position: absolute; 
+     left: 60px; 
+     top: 50%; 
+     transform: translateY(-250%); 
+     width: 750px; 
+     height: 20px;
+    font-size: 32px;
+     color: #FFF8DC; 
+  }
+  
+  .header-hero {
+    position: relative;
+    height: 80vh;
+}
+
+.header-hero::before {
+    content: "";
+    background-image: url('Images/Muah.png');
+    background-size: cover;
+    background-position: center; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7; 
+    z-index: -1;
+}
+
+    /* NAVBAR SECTION */
+.nav {
+  position: absolute;
+  top: 10;
+  right: 0;
+}
+
+.nav ul {
+  list-style-type: none;
+}
+
+.nav ul li {
+  display: inline;
+  margin-left: 30px; 
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #FFF8DC;
+}
+  /* NAVBAR SECTION */
+  .section {
+    padding: 40px 0;
+  }
+  .projectBox h1{
+    color:#FFF8DC;
+    background-color: #333;
+    width: 100%;
+    position: static;
+    text-align: center;
+    transform: translateY(40%);  
+    }
+  
+  .project-card1 { 
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    width: 550px;
+  }
+  h2{
+    font-size: 24px;
+    width: 550px;
+  }
+  #projects1{
+    float: right;
+    top: 100%;
+    position: absolute; 
+    right: 50px; 
+    top: 250%; 
+  }
+.NOAAI img {
+  position: absolute;
+  left: -1200px;
+  width: 1000px; 
+  height: auto;
+}
+.horizontal-line {
+  width: 100%; 
+  height: 5px; 
+  background-color: #FFF8DC; 
+  position: absolute; 
+  top: 78%; 
+}
+.horizontal-line2 {
+  width: 1275px; 
+  height: 1px; 
+  background-color: #FFF8DC; 
+  position: absolute;
+  top: 260%; 
+}
+
+
+  .project-card2 {
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    width: 550px;
+    z-index: 1;
+  }
+  #projects2 {
+    position: absolute; 
+    left: 50px; 
+    top: 150%; 
+    transform: translateY(-50%);  
+  }
+  .aoI img {
+    position: absolute; 
+    right: -1200px; 
+    top: 40%; 
+    transform: translateY(-50%); 
+    height: auto;
+    width: 1000px;
+  }
+  
+  
+  footer {
+    width: 100%;
+    background-color: #333;
+    color: #FFF8DC;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 20px   
+  }
+  
+  footer ul {
+    display: inline-block;
+    vertical-align: top;
+    color: #FFF8DC; 
+  }
+  
+  footer ul li {
+    display: inline-block;
+    padding: 0 10px;
+    color: #FFF8DC; 
+  }
